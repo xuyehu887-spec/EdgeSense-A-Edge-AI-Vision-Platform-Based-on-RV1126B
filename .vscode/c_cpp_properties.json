@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "RV1126B",
+
+            "compilerPath": "/opt/atk-dlrv1126b-toolchain/bin/aarch64-buildroot-linux-gnu-g++",
+
+            "compilerArgs": [
+                "--sysroot=/opt/atk-dlrv1126b-toolchain/aarch64-buildroot-linux-gnu/sysroot"
+            ],
+
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/app",
+                "${workspaceFolder}/camera",
+                "${workspaceFolder}/video",
+                "${workspaceFolder}/encoder",
+                "${workspaceFolder}/rtsp",
+                "${workspaceFolder}/inference",
+                "/home/a/software/github-rknn/rknn-toolkit2-master/rknpu2/examples/3rdparty/mpp/include",
+
+                "/opt/atk-dlrv1126b-toolchain/aarch64-buildroot-linux-gnu/sysroot/usr/include",
+                "/opt/atk-dlrv1126b-toolchain/aarch64-buildroot-linux-gnu/sysroot/usr/include/rockchip",
+                "/opt/atk-dlrv1126b-toolchain/aarch64-buildroot-linux-gnu/sysroot/usr/include/gstreamer-1.0",
+                "/opt/atk-dlrv1126b-toolchain/aarch64-buildroot-linux-gnu/sysroot/usr/include/glib-2.0",
+                "/opt/atk-dlrv1126b-toolchain/aarch64-buildroot-linux-gnu/sysroot/usr/lib/glib-2.0/include"
+            ],
+
+            "defines": [],
+
+            "cStandard": "c17",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-arm64"
+        }
+    ],
+
+    "version": 4
+}
